@@ -18,4 +18,3 @@ Become more familiar with the MERN stack. Specifically:
 - Create GET request for each specific page when displaying or editing
 - close confirmation of delete box on blur()
 - Fade animation on mount and dismount of components
-"# react-snippets" 
