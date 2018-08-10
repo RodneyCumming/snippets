@@ -7,6 +7,7 @@
 .main{
   height: 100%;
   box-sizing: border-box;
+  background: #eef2f3;
 }
 
 .card__container {
@@ -94,4 +95,8 @@
   transition: all 0.3s, ;
   transform: scale(1.05);
 
+}
+
+.card__ul {
+  padding-bottom: 50px;
 }

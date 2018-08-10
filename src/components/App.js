@@ -56,7 +56,7 @@ class App extends React.Component {
                     handleUpdateCodes={this.props.handleUpdateCodes}
                     history={this.props.history}
           />
-        <ul className='container'>{codes}</ul>
+        <ul className='container card__ul'>{codes}</ul>
 
         <Link to='/add'>
           <p className='addBtn'>+</p>

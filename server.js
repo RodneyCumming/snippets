@@ -2,8 +2,9 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const routes = require('./routes/api')
 const mongoose = require('mongoose')
+const path = require('path')
 
-// Set up express app
+// // Set up express app
 const app = express()
 
 // connect to mongodb
@@ -19,8 +20,8 @@ mongoose.Promise = global.Promise
 // bodyParser: Parses the text as JSON and exposes the resulting object on req.body
 app.use(bodyParser.json())
 
-// Set Public Folder
-app.use(express.static(path.join(__dirname, 'public')))
+// // Set Public Folder
+app.use( express.static( `${__dirname}/./build` ) );
 
 // initialise routes
 app.use('/api', routes)
@@ -31,6 +32,6 @@ app.use((err, req, res, next) => {
 })
 
 // listen for requests
-app.listen(process.env.port || 6000, () =>
-  console.log('now listening for requests')
+app.listen(3000, () =>
+  console.log('Example app listening on port 3000!')
 )

@@ -196,3 +196,17 @@
   cursor: pointer;
   transition: color 0.3s;
 }
+
+.editForm__editBtn {
+  height: 40px;
+  margin: 15px 30px 15px;
+  width: 40px;
+  color: #5e6b79;
+  transition: color 0.3s;
+}
+
+.editForm__editBtn:hover {
+  color: #00a79d;
+  cursor: pointer;
+  transition: color 0.3s;
+}
