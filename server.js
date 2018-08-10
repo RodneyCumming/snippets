@@ -16,11 +16,11 @@ mongoose
   .catch(err => console.log(err))
 mongoose.Promise = global.Promise
 
-// express
-app.use(express.static('public'))
-
 // bodyParser: Parses the text as JSON and exposes the resulting object on req.body
 app.use(bodyParser.json())
+
+// Set Public Folder
+app.use(express.static(path.join(__dirname, 'public')))
 
 // initialise routes
 app.use('/api', routes)
@@ -31,6 +31,6 @@ app.use((err, req, res, next) => {
 })
 
 // listen for requests
-app.listen(process.env.port || 80, () =>
+app.listen(process.env.port || 6000, () =>
   console.log('now listening for requests')
 )
