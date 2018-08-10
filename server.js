@@ -31,6 +31,6 @@ app.use((err, req, res, next) => {
 })
 
 // listen for requests
-app.listen(process.env.port || 4000, () =>
+app.listen(process.env.port || 80, () =>
   console.log('now listening for requests')
 )
