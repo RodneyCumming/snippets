@@ -1,0 +1,198 @@
+.addForm__container {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.addForm {
+  margin: 80px auto 35px;
+  width: 80%;
+  max-width: 1240px;
+  border-radius: 10px;
+  background: #f7fafc;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 10px 10px 40px -15px black;
+  display: flex;
+  align-items: stretch;
+}
+
+.addForm__leftPanel {
+  width: 100px;
+  background: #2d3745;
+  min-height: 100px;
+  float: left;
+  flex: 1;
+  padding: 15px 0;
+}
+
+.addForm__rightPanel {
+  width: calc(100% - 100px);
+  float: left;
+  padding: 0 40px 40px;
+}
+
+.addForm__header {
+  font-size: 20px;
+  line-height: 50px;
+  padding: 30px 0 0;
+  font-weight: 900;
+  color: #2d3745;
+  max-width: 900px;
+  margin: 0 auto 0;
+}
+
+.addForm__inner {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.addForm__btn {
+  background: #2d3745;
+  width: 150px;
+  color: white;
+  transition: background 0.3s;
+  margin-left: 10px;
+}
+
+.addForm__btn:hover {
+  cursor: pointer;
+  background: #20242a;
+  transition: background 0.3s;
+}
+
+.addForm__closeBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #c8cacb;
+  padding: 0px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 0 0 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.addForm__closeBtn:hover {
+  color: #2d3745;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.addForm__iconContainer {
+  position: relative;
+}
+
+.addForm__iconContainer:hover * {
+  color: #00a79d;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.addForm__editBtn {
+  height: 40px;
+  margin: 15px 30px 15px;
+  width: 40px;
+  color: #5e6b79;
+  transition: color 0.3s;
+}
+
+.addForm__editBtn:hover {
+  color: #00a79d;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.addForm__tooltip {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  bottom: -22px;
+  font-size: 12px;
+  color: transparent;
+}
+
+.addForm__btnContainer   {
+  color:black;
+  position:relative;
+  width:100px;
+}
+
+.addForm__btnContainer:after {
+  content:'';
+   position: absolute;
+   right: 0;
+   top: 50%;
+   margin-top: -10px;
+   width: 0;
+   z-index:1;
+   height: 0;
+   border-top: solid 7px transparent;
+   border-right: solid 14px #f7fafc;
+   border-bottom: solid 7px transparent;
+}
+
+.addForm__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 13px .75rem;
+  background: white;
+  color: #ababab;
+  overflow: auto;
+}
+
+.quickAdd_input {
+  background: #f7fafc;
+}
+
+.quickAdd_input:focus {
+  background: #f7fafc;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.addForm__codeInput {
+  min-height: 300px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10;
+  position: relative;
+}
+
+.addForm__codeInput:focus {
+  background: rgba(0, 0, 0, 0);
+}
+
+.addForm__codeInput__quick {
+  min-height: 462px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10;
+  position: relative;
+}
+
+.addForm__codeInput__quick:focus {
+  background: rgba(0, 0, 0, 0);
+}
+
+.addForm__hidePlaceholder {
+  color: white;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control::placeholder {
+  color: #ababab
+}

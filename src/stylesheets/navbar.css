@@ -1,0 +1,40 @@
+
+.navbar {
+  height: 70px;
+}
+
+.navbar__container {
+  width: 100%;
+  height: 70px;
+}
+
+.navBar__group {
+  display: inline-block;
+  height: 70px;
+}
+
+.navBar__group:hover {
+  cursor: pointer;
+}
+
+.navBar__icon {
+  display: inline-block;
+  padding-right: 10px;
+  height: 70px;
+  width: 60px;
+  padding: 20px 7px 20px 10px;
+  color: #686868;
+  vertical-align: top;
+}
+
+.narbar__title {
+  color: white;
+  font-size: 20px;
+  line-height: 70px;
+  display: inline-block;
+  margin: 0;
+}
+
+.navbar__title__highlight {
+  color: #19dec4;
+}

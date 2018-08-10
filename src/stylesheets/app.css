@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono');
+
+* {
+  font-family: Montserrat;
+}
+
+.main{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card__container {
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5px;
+  background: white;
+  list-style-type: none;
+  transition: border 0.3s, padding-right 0.3s;
+  border-left: 30px solid #029d95;
+  padding-right: 20px;
+}
+
+.card__container:hover {
+  cursor: pointer;
+  border-left: 50px solid #029d95;
+  padding-right: 0;
+  transition: all 0.3s;
+}
+
+.card__icon {
+  height: 80px;
+  width: 60px;
+  color: lightgray;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 3px 0 0 3px;
+}
+
+.card__inner {
+  display: inline-block;
+  min-height: 60px;
+  vertical-align: top;
+  padding-left: 10px;
+  width: calc(100% - 80px);
+}
+
+.card__title {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.card__tag {
+  background: #fefaf4;
+  margin-left: 5px;
+  padding: 0 5px;
+  line-height: 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #fae3b9;
+}
+
+.card__text {
+  display: block;
+  margin: 0 0 10px 0;
+  line-height: 30px;
+  color: #a8a8a8;
+}
+
+.addBtn {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  height: 60px;
+  width: 60px;
+  background: #00a79d;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 60px;
+  font-size: 40px;
+  font-family: arial;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  background: #008179;
+  transition: all 0.3s, ;
+  transform: scale(1.05);
+
+}

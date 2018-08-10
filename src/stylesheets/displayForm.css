@@ -1,0 +1,199 @@
+
+.displayForm__comfirmDelete {
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  background: #2d3845;
+  top: 0;
+  border-radius: 0 10px 10px 0;
+  left: 100px;
+}
+
+.displayForm__comfirmDeleteTitle {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.displayForm__comfirmDelete__yes, .displayForm__comfirmDelete__no {
+  width: 80px;
+  margin-left: 12px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: #3d4b5b;
+  transition: background 0.3s;
+}
+
+.displayForm__comfirmDelete__yes:hover, .displayForm__comfirmDelete__no:hover {
+  background: #515f70;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.display__title {
+  font-size: 20px;
+  line-height: 35px;
+  padding: 20px 0 8px;
+  font-weight: 900;
+  color: #2d3745;
+  max-width: 900px;
+  margin: 38px auto 0;
+}
+
+.display__inner {
+  background: white;
+  border-radius: .25rem;
+  border: 1px solid lightgray;
+  padding: 40px;
+  max-width: 900px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.display__leftPanel {
+  width: 100px;
+  background: #2d3745;
+  min-height: 100px;
+  padding: 15px 0;
+  float: left;
+  flex: 1;
+}
+
+.display__deleteBtn {
+  height: 40px;
+  margin: 15px 30px 15px;
+  width: 40px;
+  color: #5e6b79;
+  transition: color 0.3s;
+}
+
+.display__editBtn {
+  height: 40px;
+  margin: 15px 30px 15px;
+  width: 40px;
+  color: #5e6b79;
+  transition: color 0.3s;
+}
+
+.display__editBtn:hover {
+  color: #00a79d;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.display__iconContainer {
+  position: relative;
+}
+
+.display__iconContainer:hover * {
+  color: #00a79d;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.display__iconContainer__delete {
+  position: relative;
+}
+
+.display__iconContainer__delete:hover * {
+  color: #c56060;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.display__smallIcon {
+  color: #5e6b79;
+  border-radius: 40%;
+  position: absolute;
+  padding: 3px;
+  top: 6px;
+  right: 25px;
+  font-size: 20px;
+  background: #2d3745;
+  transition: color 0.3s;
+}
+
+.display__bigBtn {
+  height: 40px;
+  margin: 15px 30px 15px;
+  width: 40px;
+  color: #5e6b79;
+  transition: color 0.3s;
+}
+
+.display__rightPanel {
+  width: calc(100% - 100px);
+  float: left;
+  padding: 0 40px 40px;
+}
+
+div .display__code {
+  background: #fafafa;
+  padding: 10px;
+  margin: 16px 0 0;
+  white-space: pre-wrap;
+}
+
+.display__code span {
+  font-family: "Roboto Mono";
+}
+
+.display__text {
+  white-space: pre-wrap;
+  margin: 0;
+  line-height: 20px;
+}
+
+.displayContainer {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  overflow:auto;
+}
+
+.display {
+  margin: 80px auto 35px;
+  width: 80%;
+  max-width: 1240px;
+  border-radius: 10px;
+  background: #f7fafc;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  /* padding: 0 40px 40px; */
+  box-shadow: 10px 10px 40px -15px black;
+}
+
+.display__closeBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #c8cacb;
+  padding: 0px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 0 0 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.display__closeBtn:hover {
+  color: #2d3745;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.display__tooltip {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  bottom: -22px;
+  font-size: 12px;
+  color: transparent;
+}
