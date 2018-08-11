@@ -12,9 +12,12 @@ Become more familiar with the MERN stack. Specifically:
   Improved understanding of the following:
   - Component life cycles
   - Application Structure
+  - Digital Ocean Droplets
   - Aspects of Design
+  - Ubuntu
 
 ## Todo
 - Create GET request for each specific page when displaying or editing
 - close confirmation of delete box on blur()
 - Fade animation on mount and dismount of components
+- Fix empty search
