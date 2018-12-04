@@ -21,7 +21,7 @@
 	</a>
 </p>
 <br>
- <img src="./screenshot.png" width="700" alt="landing page scroll animation">
+ <img src="./readme-images/screen-capture.gif" width="700" alt="landing page scroll animation">
 </div>
 <br>
 
@@ -46,7 +46,7 @@ Improved understanding of the following:
 
 ## Live Website
 
-www.rodddo.xyz :zap:
+www.roddo.xyz :zap:
 
 ## Author
 
