@@ -10,14 +10,14 @@
     	src="https://img.shields.io/badge/npm-6.4.1-brightgreen.svg"></a>
     <a href="#"><img
     	alt="size of repository"
-    	src="https://img.shields.io/badge/Size-4.24%20MB-green.svg"></a>
+    	src="https://img.shields.io/badge/Size-56.0%20KB-yellowgreen.svg"></a>
     <a href="https://badges.mit-license.org/" target="_blank"><img
     	alt="licence"
     	src="https://img.shields.io/packagist/l/doctrine/orm.svg">
 	</a>
     <a href="#" target="_blank"><img
     	alt="Javascript percentage"
-    	src="https://img.shields.io/badge/Javascript-57.5%25-red.svg">
+    	src="https://img.shields.io/badge/javascript-67.1-yellow.svg">
 	</a>
 </p>
 <br>
