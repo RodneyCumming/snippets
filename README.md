@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./src/images/logo.svg" width="100" alt="R logo">
+ <img src="./src/images/logo-fade.svg" width="100" alt="R logo">
  <br>
  <h1 size="+2">Code Snippets</h1>
  <h4><i>A crud database web app to store and retrieve snippets of code.</i></h4>
@@ -44,23 +44,9 @@ Improved understanding of the following:
 - Aspects of Design
 - Ubuntu
 
-## Features
-
-- Parallax scrolling
-- Responsive design
-- Custom designed images
-- Pop-up components
-
-## Technologies
-
-- HTML5
-- CSS3
-- React.js
-- Adobe Illustrator
-
 ## Live Website
 
-www.rdny.me :zap:
+www.rodddo.xyz :zap:
 
 ## Author
 
