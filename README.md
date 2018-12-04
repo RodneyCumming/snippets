@@ -58,8 +58,3 @@ www.roddo.xyz :zap:
 
 - **[MIT license](http://badges.mit-license.org)**
 - Copyright 2018 © <a href="http://fvcproductions.com" target="_blank">Rodney Cumming</a>.
-
-## Acknowledgments
-
-- Inspired by [www.firewatchgame.com](http://www.firewatchgame.com/)
-- Parallax implementation inspired by [Sam Beckham](https://codepen.io/samdbeckham/pen/OPXPNp)
