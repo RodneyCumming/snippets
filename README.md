@@ -39,9 +39,8 @@ Become more familiar with the MERN stack. Specifically:
 Improved understanding of the following:
 
 - Component life cycles
-- Application Structure
-- Digital Ocean Droplets
-- Aspects of Design
+- App Deployment
+- Design Principles
 - Ubuntu
 
 ## Live Website
