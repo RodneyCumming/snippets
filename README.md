@@ -17,7 +17,7 @@
 	</a>
     <a href="#" target="_blank"><img
     	alt="Javascript percentage"
-    	src="https://img.shields.io/badge/javascript-67.1-yellow.svg">
+    	src="https://img.shields.io/badge/Javascript-67.1%25-yellow.svg">
 	</a>
 </p>
 <br>
