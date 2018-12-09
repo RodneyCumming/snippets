@@ -21,7 +21,7 @@
 	</a>
 </p>
 <br>
- <img src="./readme-images/screen-capture.gif" width="700" alt="landing page scroll animation">
+ <img src="https://github.com/devrod/readme-images/blob/master/snippets-screencapture.gif?raw=true" width="700" alt="landing page scroll animation">
 </div>
 <br>
 
