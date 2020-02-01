@@ -1,6 +1,8 @@
 
 .navbar {
   height: 70px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar__container {

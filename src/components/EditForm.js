@@ -54,7 +54,10 @@ class EditForm extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`/api/code/${id}`, {
+    fetch(`http://157.245.192.198:4000/api/code/${id}`, {
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      },
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     this.props.clearSearch()
@@ -95,9 +98,10 @@ class EditForm extends Component {
   }
 
   putRequest(data) {
-    fetch(`/api/code/${this.props.currentCode._id}`, {
+    fetch(`http://157.245.192.198:4000/api/code/${this.props.currentCode._id}`, {
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
       },
       method: 'PUT',
       body: JSON.stringify(data)

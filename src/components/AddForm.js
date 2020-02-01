@@ -144,9 +144,10 @@ class AddForm extends Component {
 
   postRequest(data) {
     console.log(data)
-    fetch('/api/code', {
+    fetch('http://157.245.192.198:4000/api/code', {
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
       },
       method: 'POST',
       body: JSON.stringify(data)

@@ -50,7 +50,10 @@ class DisplayItem extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`/api/code/${id}`, {
+    fetch(`http://157.245.192.198:4000/api/code/${id}`, {
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      },
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     .then(() => this.props.clearSearch())
