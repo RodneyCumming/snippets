@@ -51,9 +51,6 @@ class DisplayItem extends Component {
 
   deleteArticle (id) {
     fetch(`http://node-server.xyz/api/code/${id}`, {
-      headers: {
-        'Access-Control-Allow-Origin': '*'
-      },
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     .then(() => this.props.clearSearch())

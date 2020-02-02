@@ -17,11 +17,7 @@ class SearchBar extends Component {
 
     e.preventDefault()
     const searchTerm = e.target.searchValue.value.toLowerCase()
-    fetch(`http://node-server.xyz/api/code?tags=${searchTerm}`, {
-      headers: {
-        'Access-Control-Allow-Origin': '*'
-      }
-    })
+    fetch(`http://node-server.xyz/api/code?tags=${searchTerm}`)
       .then(function (data) {
         return data.json()
       })

@@ -55,9 +55,6 @@ class EditForm extends Component {
 
   deleteArticle (id) {
     fetch(`http://node-server.xyz/api/code/${id}`, {
-      headers: {
-        'Access-Control-Allow-Origin': '*'
-      },
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     this.props.clearSearch()
@@ -100,8 +97,7 @@ class EditForm extends Component {
   putRequest(data) {
     fetch(`http://node-server.xyz/api/code/${this.props.currentCode._id}`, {
       headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
+        'Content-Type': 'application/json'
       },
       method: 'PUT',
       body: JSON.stringify(data)
