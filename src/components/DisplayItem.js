@@ -50,7 +50,7 @@ class DisplayItem extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`http://157.245.192.198:4000/api/code/${id}`, {
+    fetch(`http://node-server.xyz/api/code/${id}`, {
       headers: {
         'Access-Control-Allow-Origin': '*'
       },

@@ -54,7 +54,7 @@ class EditForm extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`http://157.245.192.198:4000/api/code/${id}`, {
+    fetch(`http://node-server.xyz/api/code/${id}`, {
       headers: {
         'Access-Control-Allow-Origin': '*'
       },
@@ -98,7 +98,7 @@ class EditForm extends Component {
   }
 
   putRequest(data) {
-    fetch(`http://157.245.192.198:4000/api/code/${this.props.currentCode._id}`, {
+    fetch(`http://node-server.xyz/api/code/${this.props.currentCode._id}`, {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*'

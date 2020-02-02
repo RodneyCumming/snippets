@@ -17,7 +17,7 @@ class SearchBar extends Component {
 
     e.preventDefault()
     const searchTerm = e.target.searchValue.value.toLowerCase()
-    fetch(`http://157.245.192.198:4000/api/code?tags=${searchTerm}`, {
+    fetch(`http://node-server.xyz/api/code?tags=${searchTerm}`, {
       headers: {
         'Access-Control-Allow-Origin': '*'
       }
