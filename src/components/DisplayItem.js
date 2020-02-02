@@ -50,7 +50,7 @@ class DisplayItem extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`http://node-server.xyz/api/code/${id}`, {
+    fetch(`https://node-server.xyz/api/code/${id}`, {
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     .then(() => this.props.clearSearch())

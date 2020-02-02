@@ -54,7 +54,7 @@ class EditForm extends Component {
   }
 
   deleteArticle (id) {
-    fetch(`http://node-server.xyz/api/code/${id}`, {
+    fetch(`https://node-server.xyz/api/code/${id}`, {
       method: 'DELETE'
     }).then(() => this.props.history.push('/'))
     this.props.clearSearch()
@@ -95,7 +95,7 @@ class EditForm extends Component {
   }
 
   putRequest(data) {
-    fetch(`http://node-server.xyz/api/code/${this.props.currentCode._id}`, {
+    fetch(`https://node-server.xyz/api/code/${this.props.currentCode._id}`, {
       headers: {
         'Content-Type': 'application/json'
       },

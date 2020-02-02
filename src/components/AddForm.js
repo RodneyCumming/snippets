@@ -144,7 +144,7 @@ class AddForm extends Component {
 
   postRequest(data) {
     console.log(data)
-    fetch('http://node-server.xyz/api/code', {
+    fetch('https://node-server.xyz/api/code', {
       headers: {
         'Content-Type': 'application/json'
       },
